@@ -9,18 +9,20 @@ class UserSeeder extends Seeder
     public function run()
     {
         $data = [
-            'name' => 'Test',
-            'email'    => 'test@mail.com',
+            'name' => 'Upin',
+            'email'    => 'upin@gmail.com',
             'password'    => md5("secret"),
+            'created_at' => 2022-04-28,
         ];
 
         // Simple Queries
         $this->db->table('users')->insert($data);
 
         $data = [
-            'name' => 'Test 2',
-            'email'    => 'test2@mail.com',
+            'name' => 'Ipin',
+            'email'    => 'ipin@mail.com',
             'password'    => md5("secret123"),
+            'created_at' => 2022-04-29,
         ];
 
         // Simple Queries
