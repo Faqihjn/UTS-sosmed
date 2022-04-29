@@ -12,7 +12,7 @@ class ReplySeeder extends Seeder
             'reply'=> 'Halo bro!',
             'user_id'=> 1,
             'post_id'=> 1,
-            'user_name'=> 'Ipin',
+            'user_name'=> 'Upin',
             'created_at' => 2022-04-29,
         ];
 
